@@ -1,5 +1,4 @@
-import React, { useEffect, useState } from "react";
-import { useRouter } from "next/router";
+import React, { useState } from "react";
 import styles from "../../styles/Blogpost.module.css";
 
 const slug = (props) => {
