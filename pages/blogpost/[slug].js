@@ -10,7 +10,7 @@ const Slug = (props) => {
   return (
     <main className={styles.main}>
       <h1 className={styles.title}>{blog && blog.title}</h1>
-      {blog && <div dangerouslySetInnerHTML={createMarkup(blog.content)}></div>}
+      {blog && <div className={styles.description} dangerouslySetInnerHTML={createMarkup(blog.content)}></div>}
     </main>
   );
 };
