@@ -9,7 +9,7 @@ const About = () => {
         <h1 className={a.heading}>Daily Learning</h1>
         <p className={a.text}>In this blog I post about my daily learnings.</p>
       </div>
-
+      
       <Footer />
     </>
   );
