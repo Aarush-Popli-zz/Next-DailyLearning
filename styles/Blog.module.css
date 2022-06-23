@@ -17,12 +17,27 @@
     margin: 15px 0px 15px 0px;
 }
 
+.blogItem {
+    margin: 15px 0px 15px 0px;
+}
+
 .blogItem h3 {
     cursor: pointer;
     font-size: 25px;
-    margin: 15px 0px 5px 0px;
+    margin: 5px 0px 5px 0px;
 }
 
 .blogItem p {
-    margin: 5px 0px 25px 0px;
+    margin: 5px 0px 10px 0px;
+}
+
+.button{
+    background-color: #212529;
+    color: #f7f7f7;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px 10px 5px 10px;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: inherit;
 }

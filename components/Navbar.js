@@ -6,29 +6,12 @@ const Navbar = () => {
     return (
         <nav className={styles.mainnav}>
             <ul>
-                <Link href={"/"}>
-                    <a>
-                        <li>Home</li>
-                    </a>
-                </Link>
-                <Link href={"/blogs"}>
-                    <a>
-                        <li>Blogs</li>
-                    </a>
-                </Link>
-                <Link href={"/about"}>
-                    <a>
-                        <li>About</li>
-                    </a>
-                </Link>
-                <Link href={"/contact"}>
-                    <a>
-                        <li>Contact</li>
-                    </a>
-                </Link>
+                <Link href={"/"}><a><li>Home</li></a></Link>
+                <Link href={"/blogs"}><a><li>Blogs</li></a></Link>
+                <Link href={"/about"}><a><li>About</li></a></Link>
+                <Link href={"/contact"}><a><li>Contact</li></a></Link>
             </ul>
         </nav>
-
     )
 }
 

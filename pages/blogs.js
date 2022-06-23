@@ -17,6 +17,9 @@ const Blogs = (props) => {
                   <h3>{blogItem.title}</h3>
                 </Link>
                 <p>{blogItem.metadesc}</p>
+                <Link href={`./blogpost/${blogItem.slug}`}>
+                  <button className={styles.button}>Read More</button>
+                </Link>
               </div>
             );
           })}
