@@ -4,11 +4,13 @@ import * as fs from 'fs';
 
 const Slug = (props) => {
   const [blog, setBlog] = useState(props.blogPost);
-
+  function createMarkup(c){
+    return {__html: c}
+  }
   return (
     <main className={styles.main}>
       <h1 className={styles.title}>{blog && blog.title}</h1>
-      <p className={styles.description}>{blog && blog.content}</p>
+      {blog && <div dangerouslySetInnerHTML={createMarkup(blog.content)}></div>}
     </main>
   );
 };
