@@ -1,4 +1,4 @@
-import Image from "next/image";
+// import Image from "next/image";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
@@ -10,9 +10,11 @@ export default function Home() {
         <p className={styles.description}>
           Here I post about my day-to-day learnings
         </p>
-        
-        <Image src="/learn.jpg" alt="" width={240} height={240} className={styles.image}/>
-
+        {/* Cannot use <Image /> when buidling a static site */}
+        {/* <Image src="/learn.jpg" alt="homeimage" width={240} height={240} className={styles.image}/> */}
+        <picture>
+          <img src="/learn.jpg" alt="homeimage" width={240} height={240} className={styles.image}/>
+        </picture>
         <style jsx>{`
           h2{
             font-size: 35px;
