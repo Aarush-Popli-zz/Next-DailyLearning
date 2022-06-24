@@ -8,7 +8,7 @@ const Blogs = (props) => {
   const [blogs, setBlogs] = useState(props.allBlogs);
   const [count, setCount] = useState(5)
   const fetchData = async () => {
-    let d = await fetch(`http://localhost:3000/api/blog/?count=${count+2}`);
+    let d = await fetch(`http://localhost:3000/api/blog/?count=${count + 2}`);
     setCount(count + 2);
     let data = await d.json();
     setBlogs(data);

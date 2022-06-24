@@ -21,29 +21,30 @@
   font-size: 1.2rem;
 }
 
-.mainnav ul{
+.mainnav ul {
   padding: 0;
   margin: 5px 0px 5px 0px;
   display: flex;
   justify-content: center;
 }
 
-.mainnav ul li{
+.mainnav ul li {
   margin: 25px 25px 5px 25px;
   list-style: none;
   font-weight: bold;
+  font-size: 17px;
 }
 
-.image{
+.image {
   border-radius: 500px;
 }
 
 .blogs {
-  max-width: 50vw;
+  max-width: 75vw;
   margin-bottom: 20px;
 }
 
-.button{
+.button {
   background-color: #212529;
   color: #f7f7f7;
   border-radius: 5px;
@@ -52,4 +53,29 @@
   font-size: 15px;
   font-weight: 400;
   font-family: inherit;
+}
+
+@media only screen and (max-width: 600px) {
+  .title {
+    margin: 0;
+    font-size: 3rem;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .title {
+    margin: 0;
+    font-size: 2.25rem;
+  }
+
+  .description {
+    margin: 10px 0px 25px 0px;
+    font-size: 0.85rem;
+  }
+
+  .mainnav ul li {
+    margin: 25px 10px 5px 10px;
+    list-style: none;
+    font-weight: bold;
+  }
 }

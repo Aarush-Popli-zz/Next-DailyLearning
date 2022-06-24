@@ -9,8 +9,8 @@ const Footer = () => {
             </div>
 
             <ul className={f.links}>
-                <li style={{ marginLeft: "20px" }}><a className={f.text} href="https://linkedin.com/in/aarushpopli" target={'_blank'} rel="noreferrer"><i className="bi bi-linkedin mx-2" style={{ fontSize: "25px" }}></i></a></li>
-                <li style={{ marginLeft: "20px" }}><a className={f.text} href="https://github.com/Aarush-Popli" target={'_blank'} rel="noreferrer"><i className="bi bi-github mx-2" style={{ fontSize: "25px" }}></i></a></li>
+                <li style={{ marginRight: "10px" }}><a className={f.text} href="https://linkedin.com/in/aarushpopli" target={'_blank'} rel="noreferrer"><i className="bi bi-linkedin mx-2" style={{ fontSize: "25px" }}></i></a></li>
+                <li style={{ marginLeft: "10px" }}><a className={f.text} href="https://github.com/Aarush-Popli" target={'_blank'} rel="noreferrer"><i className="bi bi-github mx-2" style={{ fontSize: "25px" }}></i></a></li>
             </ul>
         </footer>
     )

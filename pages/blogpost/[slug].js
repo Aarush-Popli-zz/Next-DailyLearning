@@ -4,8 +4,8 @@ import * as fs from 'fs';
 
 const Slug = (props) => {
   const [blog, setBlog] = useState(props.blogPost);
-  function createMarkup(c){
-    return {__html: c}
+  function createMarkup(c) {
+    return { __html: c }
   }
   return (
     <main className={styles.main}>

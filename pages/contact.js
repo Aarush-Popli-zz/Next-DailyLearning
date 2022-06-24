@@ -4,7 +4,7 @@ import styles from '../styles/Contact.module.css'
 const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
-    
+
     const data = { name, email, desc };
 
     fetch('http://localhost:3000/api/postcontact/', {

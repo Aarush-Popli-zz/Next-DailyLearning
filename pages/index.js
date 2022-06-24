@@ -3,7 +3,7 @@ import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
-    <div className={styles.container}>      
+    <div className={styles.container}>
       <main className={styles.main}>
         <h1 className={styles.title}>Daily Learning</h1>
 
@@ -13,7 +13,7 @@ export default function Home() {
         {/* Cannot use <Image /> when buidling a static site */}
         {/* <Image src="/learn.jpg" alt="homeimage" width={240} height={240} className={styles.image}/> */}
         <picture>
-          <img src="/learn.jpg" alt="homeimage" width={240} height={240} className={styles.image}/>
+          <img src="/learn.jpg" alt="homeimage" width={240} height={240} className={styles.image} />
         </picture>
         <style jsx>{`
           h2{
