@@ -15,46 +15,21 @@ export default function Home() {
         <picture>
           <img src="/learn.jpg" alt="homeimage" width={240} height={240} className={styles.image} />
         </picture>
-        <style jsx>{`
-          h2{
-            font-size: 35px;
-            margin: 20px 0px 0px 0px;
-          }
-          .blogItem{
-            margin: 15px 0px 15px 0px;
-          }
-          .blogItem h3{
-            font-size: 25px;
-            margin: -5px 0px -5px 0px;
-          }
-          .blogItem p{
-            margin: 5px 0px 5px 0px;
-          }
-        `}</style>
-        <div className={styles.blogs}>
-          <h2>Latest Blogs</h2>
-          <div className="blogItem">
-            <h3>Learn</h3>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa nesciunt tempore illum possimus itaque esse? Error vero fuga reprehenderit impedit neque esse temporibus eligendi quam ipsa est laborum, ab iste, veritatis quasi dolore ea necessitatibus iure. Illo incidunt veritatis cum.
-            </p>
-            <button className={styles.button}>Read More</button>
-          </div>
-          <div className="blogItem">
-            <h3>Learn</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae harum sunt ea eos. Aspernatur a voluptate in architecto aliquam tempora repellendus ipsa! Dolore non similique nihil sunt impedit rem facilis velit, vitae temporibus accusantium laborum, autem recusandae tempora culpa ullam?
-            </p>
-            <button className={styles.button}>Read More</button>
-          </div>
-          <div className="blogItem">
-            <h3>Learn</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde iusto, placeat voluptas ea consequuntur aut aspernatur et ducimus magnam quas, exercitationem blanditiis possimus alias quidem quis provident dolore eveniet sequi veniam molestiae nam. Adipisci laudantium, facere cupiditate nobis voluptate voluptatum!
-            </p>
-            <button className={styles.button}>Read More</button>
-          </div>
+        <div className={styles.info}>
+          <span className={styles.badge}>Web Development</span>
+          <span className={styles.badge}>Animation</span>
+          <span className={styles.badge}>Chess</span>
+          <span className={styles.badge}>Cryptocurrency</span>
+          <span className={styles.badge}>Blender</span>
+          <span className={styles.badge}>Finance</span>
+          <span className={styles.badge}>Bootstrap</span>
+          <span className={styles.badge}>Front end</span>
+          <span className={styles.badge}>Insurance</span>
+          <span className={styles.badge}>Angular</span>
+          <span className={styles.badge}>Science</span>
+          <span className={styles.badge}>React JS</span>
         </div>
+
       </main>
     </div>
   );
