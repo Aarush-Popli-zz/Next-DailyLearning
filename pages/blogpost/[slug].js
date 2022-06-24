@@ -16,13 +16,12 @@ const Slug = (props) => {
 };
 
 export async function getStaticPaths() {
+  let blogs = await fs.promises.readdir("blogdata");
+  blogs = blogs.map((item)=>{
+    return { params: { slug: item.split(".")[0] } };
+  })
   return {
-    paths: [
-      { params: { slug: 'how-to-learn-javascript-0' } },
-      { params: { slug: 'how-to-learn-javascript-1' } },
-      { params: { slug: 'how-to-learn-javascript-2' } },
-      { params: { slug: 'how-to-learn-javascript-3' } },
-    ],
+    paths: blogs,
     fallback: true
   };
 }
