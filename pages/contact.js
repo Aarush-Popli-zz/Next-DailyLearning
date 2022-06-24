@@ -16,7 +16,6 @@ const Contact = () => {
     })
       .then(response => response.text())
       .then(data => {
-        console.log('Success:', data);
         alert("Thanks for your message");
         setName('');
         setEmail('');

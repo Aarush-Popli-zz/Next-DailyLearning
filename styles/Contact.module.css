@@ -45,6 +45,7 @@
     background-color: #212529;
     color: #f7f7f7;
     border-radius: 5px;
+    border: 0px;
     cursor: pointer;
     padding: 0.4rem 0.8rem 0.4rem 0.8rem;
     font-size: 0.95rem;
