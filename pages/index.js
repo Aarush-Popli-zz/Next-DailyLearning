@@ -1,4 +1,4 @@
-// import Image from "next/image";
+import Image from "next/image";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
@@ -11,10 +11,10 @@ export default function Home() {
           Here I post about my day-to-day learnings
         </p>
         {/* Cannot use <Image /> when buidling a static site */}
-        {/* <Image src="/learn.jpg" alt="homeimage" width={240} height={240} className={styles.image}/> */}
-        <picture>
+        <Image src="/learn.jpg" alt="homeimage" width={240} height={240} className={styles.image}/>
+        {/* <picture>
           <img src="/learn.jpg" alt="homeimage" width={240} height={240} className={styles.image} />
-        </picture>
+        </picture> */}
         <div className={styles.info}>
           <span className={styles.badge}>Web Development</span>
           <span className={styles.badge}>Animation</span>
