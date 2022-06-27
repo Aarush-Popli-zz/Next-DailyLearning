@@ -10,7 +10,7 @@ const About = () => {
         <h1 className={a.heading}>Daily Learning</h1>
         <p className={a.text}>In this blog I post about my daily learnings.</p>
       </div>
-      <Marquee gradient={false} speed={50}>
+      <Marquee gradient={false} speed={30}>
         <span className={a.badge}>Web Development</span>
         <span className={a.badge}>Animation</span>
         <span className={a.badge}>Chess</span>
