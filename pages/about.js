@@ -8,7 +8,7 @@ const About = () => {
     <>
       <div className={a.container}>
         <h1 className={a.heading}>Daily Learning</h1>
-        <p className={a.text}>In this blog I post about my daily learnings.</p>
+        <p className={a.text}>Daily Learning is a personal blog where I post about my daily learnings. This blog works with any browser such as Chrome, Firefox, Safari, Edge and others. It is made using Next JS.</p>
       </div>
       <Marquee gradient={false} speed={30}>
         <span className={a.badge}>Web Development</span>
